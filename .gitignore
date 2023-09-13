@@ -1,0 +1,13 @@
+node_modules/
+build/
+.env
+
+# Ignore node_modules in the frontend directory
+my-ecom/node_modules/
+
+# Ignore node_modules in the backend directory
+admin/node_modules/
+
+# Ignore node_modules in the api directory
+myEcomApi/node_modules/
+myEcomApi/.env

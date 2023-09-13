@@ -1,0 +1,11 @@
+h1 {
+  background: linear-gradient(rgba(218, 23, 136, 0.3)),
+    rgba(110, 235, 141, 0.3)
+      url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.479);
+  box-shadow: black;
+  
+}

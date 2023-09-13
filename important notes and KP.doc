@@ -1,0 +1,29 @@
+CORS:
+if u fetch data from port eg.5000(server side) to localhost client side(3000) then it will not allow u to acces the
+data 
+
+SOLUTION:
+install cors (CEOSS ORIGIN RESPONSE RESOURCE)
+
+STEP1:
+npm i corse 
+
+STEP2:
+require in index.js (server ) 
+STEP3:
+app.use(
+  cors({
+    origin: "http://localhost:3000", 
+  })
+);
+
+==============================================
+there is a problem in filtering color and size 
+i.e=> color and size name name in VC  are uppercase but in db they lowercase
+====================================================================
+
+The useSelector hook is used to extract the state of a component from the redux 
+store using the selector function. The useDispatch hook is used to update the state of the 
+component and return a new state.
+
+note:=>ill have to drop whole table after complettion bevause many changes have been done to the databse
